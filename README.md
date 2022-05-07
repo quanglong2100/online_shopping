@@ -1,5 +1,7 @@
 # online_shopping
 
+# Please refer to diagram for full tables view.
+
 - When customers add items to their carts, they are actually inserting new rows into CART_ORDER table. (PROCEDURE)\
 After a new row is inserted/updated/deleted in CART_ORDER table, CART is automatically triggered to reflect the latest TOTAL_PRICE. (TRIGGER)\
 TOTAL_PRICE is calculated by multiplying items' prices by their respective amounts, then sum all items a person has.\

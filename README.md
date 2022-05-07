@@ -22,7 +22,7 @@ After the data in DEAL_ORDER is created, records in CART_ORDER are cleared, read
 If the amounts suffice, the purchase command is executed and the respective amounts are deducted accordingly. (TRIGGER)\
 If not, return Error and stop action.
 
-\- Procedure SHIPPING_SLIP is used to print detail of an order (a.k.a shipping labels).\
+\- Procedure SHIPPING_SLIP: print detail of an order (a.k.a shipping labels).\
 \- Procedure FINISHED_DELIVERY: shippers register finished deliveries in table DEAL.
 
 ______________________________________________________

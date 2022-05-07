@@ -30,7 +30,7 @@ ______________________________________________________
 \+ VIEW: View on DEAL where STATUS = 'NOT SHIPPED' to check on lazy shippers.\
 \+ VIEW: View on DEAL count where STATUS = 'SHIPPED' to check level of success.\
 \+ VIEW: View on CART_ORDER -> count total number of items in cart, grouped by items to actively monitor which products customers are hesitating to buy
-to accommodate them with timely sale off programs, further boost website's reputation. (or increase the price because of high demand. Show them some Capitalism.)\
+to accommodate them with timely sale off programs, further boost website's reputation. (or increase the price because of high demand. Show them some Capitalism.)
 
 /!\ AUDIT LOG: Check 4 tables CUSTOMER, SHIPPER, ITEM, VENDOR because they contain important basic data.\
 Separate each table into 3 triggers (insert, delete, update) in order to use Cursor to handle bulk activation (SQL Server fires trigger once per statement and no FOR EACH ROW).

@@ -1,6 +1,6 @@
 # online_shopping
 
-**Please refer to diagram for full tables view.**
+**Please refer to diagram for full tables relationship view.**
 
 \- When customers add items to their carts, they are inserting new rows into CART_ORDER table. (PROCEDURE)\
 After a new row is inserted/updated/deleted in CART_ORDER table, CART is automatically triggered to reflect the latest TOTAL_PRICE. (TRIGGER)

@@ -2,7 +2,6 @@ CREATE DATABASE ONLINE_SHOPPING
 GO
 USE ONLINE_SHOPPING
 
-
 /* INDEX:
 Table: line 16
 Brief ideas: line 99

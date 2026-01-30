@@ -2,7 +2,7 @@
 
 **Please refer to diagram for full tables relationship view.**
 
-![Database Diagram](online%20shopping%20diagram.png)
+![Database Diagram](online%20shopping%20diagram.png "Online Shopping Diagram")
 
 \- When customers add items to their carts, they are inserting new rows into CART_ORDER table. (PROCEDURE)\
 After a new row is inserted/updated/deleted in CART_ORDER table, CART is automatically triggered to reflect the latest TOTAL_PRICE. (TRIGGER)
